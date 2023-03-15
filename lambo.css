@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-con{
+    position: fixed;
+    z-index: 1040;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #202020;
+    height: 13vh;
+}
+.lambo-logo{
+    height: fit-content;
+    margin-right: 5.2rem;
+    width: 6rem;
+}
+.lambo-logo img{
+    height: 61px;
+    width: 60px;
+    margin-top: 16px;
+    margin-left: 60px;
+    margin-bottom: 16px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.head-list1 ul{
+    display: flex;
+    color: #ffff;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 37px;
+    font-weight: 46px;
+    margin-left: -24px;
+
+}
+.head-list1 ul #custom{
+    width: 170px;
+}
+.head-list2 ul{
+    display: flex;
+    color: #ffff;
+    font-size: 16px;
+    line-height: 24px;
+    float: right;
+    margin-top: 37px;
+    margin-left: 34vh;
+}
+.head-list2 ul li{
+    padding-left: 26px;
+}
+.head-list3 ul{
+    display: flex;
+    margin-top: 21px;
+    padding-left: 12px;
+    margin-left: 32px;
+    line-height: 23px;
+}
+.head-list3 ul li{
+    line-height: 71px;
+}
+.head-list3 ul li img{
+    padding-right: 12px;
+    width: 30px;
+    padding-left: 12px;
+}
+.head-list1 ul li{
+    padding-left: 26px;
+}
+nav{
+    display: flex;
+}
+ul li{  
+    list-style-type: none;
+}
+.container nav{
+    width:100%;
+    height: calc(100vh - 13vh);
+    margin-top: 97px;
+    position: relative;
+    /* display: flex; */
+}
+
+
+.container nav img{
+    box-sizing: border-box;
+    width: 100%;
+    height:fit-content;
+}
+
+.container .head-content{
+    
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    padding: 20px;
+}
+
+.container .head-content h3{
+    color: white;
+    font-size: 34px;
+    font-weight: 500;
+}
+.container .head-content h1{
+    color: white;
+    font-size: 110px;
+    font-weight: 700;
+    
+}
+#emmail{
+    margin-left: ;
+}
+.btn:hover{
+    background: #fff;
+    color: black;
+}
+
+ #second h1{
+    color: #202020;
+    letter-spacing: -6px;
+    font-size: 79px;
+}
+#second h3{
+    color: #202020;
+    font-size: 34px;
+}
+#third h1{
+    color: #fff;
+    letter-spacing: -6px;
+    font-size: 79px;
+}#third h3{
+    color: #fff;
+    font-size: 34px;
+}
+#third{
+    height: 40vh;
+    
+}
+
+
+section{
+    width: 100%;
+    height: 70vh;
+    background: red;
+    position: relative;
+}
+
+section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.news-coloumn{
+    margin-left: 96px;
+    margin-right: 96px;
+    padding-top: 14vh;
+    align-items: center;
+}
+.title-hd h3{
+    font-size: 33px;
+    line-height: 15px;
+    text-align: left;
+}
+.title-hd h1{
+    font-size: 98px;
+    padding-top: 23px;
+    padding-bottom: 13px;
+}
+.title-hd img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.news{
+    margin-top: 8vh;
+}
+.news h4{
+    font-size: 20px;
+    font-weight: 0.8px;
+    line-height: 23px;
+    letter-spacing: 1.4px;
+    padding-bottom: 19px;
+}
+.news h6{
+    font-size: 19px;
+    padding-top: 16px;
+    letter-spacing: 1px;
+    font-weight: 1;
+    
+    
+}
+#news-hed{
+    font-size: 32px;
+    font-style: bold;
+    text-align: left;
+    padding-top: 10px;
+    
+}
+#news-btn{
+    width: 222px;
+    height: 52.2px;
+    float: right;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid #202020;
+    color: black;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#news-btn:hover{
+    background-color: black;
+    color: white;
+}
+.news1{
+    width: 100%;
+    display: flex;
+}
+.news1 img{
+    width: 49%;
+    padding-top: 56px;
+}
+.news1 h6{
+    display: inline;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+}
+.news h6{
+    padding-bottom: 30px;
+}
+.news2{
+    width:633px;
+    height: 260px;
+    background-image: url("./news1.jpg");
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#second-2{
+    background-image: url("./oscar_cover.jpg");
+}
+.news11{
+    display: flex;
+    flex-direction: column;
+}
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 85px;
+    margin-bottom: 50px;
+}
+.center-btn{
+    width: 222px;
+    height: 52.2px;
+    float: right;
+    box-sizing: border-box;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+footer{
+    height:40vh;
+    background-color: #181818;
+    padding-top: 50px;
+}
+.social{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.social-titles{
+    width: 50%;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 13px;
+}
+.social-ico{
+   height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.services{
+    color: #fff;
+    margin-top: 55px;
+    margin-left: 12px;
+
+}
+.ccsmp{
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+.notice{
+    color: white;
+    margin-left: 67px;
+    
+}
+.notice h6{
+    font-size: 15px;
+    line-height: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.copyright{
+    margin-left: 55px;
+    margin-top: 23px;
+    color: #fff;
+
+}
+.copyright h4{
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1;
+
+
+}
